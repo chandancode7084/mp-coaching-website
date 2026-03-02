@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fee Payment</title>
+
+<style>
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #6F819E, #244783);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.payment-card{
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    width: 300px;
+}
+
+.payment-card h2{
+    margin-bottom: 15px;
+    color: #FF1300;
+}
+
+.payment-card p{
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.payment-card img{
+    border-radius: 20#FF1300px;
+}
+.download-btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background: #FF1300;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.download-btn:hover{
+    background: #cc1000;
+}
+</style>
+</head>
+
+<body>
+
+<div class="payment-card">
+    <h2>Fee Payment</h2>
+    <p>Scan QR Code to Pay Fees</p>
+
+    <img src="bheemQr.jpeg" 
+         alt="UPI QR Code" width="250">
+         <br><br>
+
+    <!-- Download Button -->
+    <a href="bheemQr.jpeg" target="_blank" class="download-btn">
+    Download QR Code
+</a>
+
+</div>
+</div>
+
+</body>
+</html>

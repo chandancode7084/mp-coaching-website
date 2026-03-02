@@ -1,0 +1,59 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Hindi Model Paper</title>
+
+<style>
+.model-card {
+    background: #f3f4f6;
+    padding: 15px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.model-card h3 {
+    cursor: pointer;
+    color: #6E1044;
+}
+
+.paper-list {
+    display: none;
+    margin-top: 10px;
+}
+
+.paper-list a {
+    display: block;
+    margin: 5px 0;
+    text-decoration: none;
+    color: #1E3A8A;
+}
+</style>
+
+<script>
+function toggleHindi() {
+    var x = document.getElementById("hindiPapers");
+    if (x.style.display === "none" || x.style.display === "") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+</script>
+
+</head>
+
+<body>
+
+<div class="model-card">
+    <h3 onclick="toggleHindi()">Drawing Model Peper</h3>
+
+    <div id="hindiPapers" class="paper-list">
+        <a href="https://drive.google.com/file/d/1PtzD0pi8QGfIMjhv11cDdpnfJsGatnX0/view?usp=drivesdk" target="_blank">
+            Drawing Model Paper  No.1
+        </a>
+        
+    </div>
+</div>
+
+</body>
+</html>

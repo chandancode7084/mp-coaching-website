@@ -1,0 +1,65 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Hindi Model Paper</title>
+
+<style>
+.model-card {
+    background: #f3f4f6;
+    padding: 15px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.model-card h3 {
+    cursor: pointer;
+    color: #6E1044;
+}
+
+.paper-list {
+    display: none;
+    margin-top: 10px;
+}
+
+.paper-list a {
+    display: block;
+    margin: 5px 0;
+    text-decoration: none;
+    color: #1E3A8A;
+}
+</style>
+
+<script>
+function toggleHindi() {
+    var x = document.getElementById("hindiPapers");
+    if (x.style.display === "none" || x.style.display === "") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+</script>
+
+</head>
+
+<body>
+
+<div class="model-card">
+    <h3 onclick="toggleHindi()">Hindi Model Paper</h3>
+
+    <div id="hindiPapers" class="paper-list">
+        <a href="https://drive.google.com/file/d/1klgXCtL7z_E6jzEb9AwuttBm1bHJEgJ4/view?usp=drivesdk" target="_blank">
+            Hindi Model Paper  No.1
+        </a>
+        <a href="https://drive.google.com/file/d/1ezoVHRfsb_3ziaa4DegJ2yG6wihcHIrQ/view?usp=drivesdk">Hindi Model Paper No.2</a>
+        <a href="https://drive.google.com/file/d/17K61PkRYjwtEc3Ogg_n2g2KifxR6zX-b/view?usp=drivesdk">Hindi Model Peper No.3</a>
+        <a href="https://drive.google.com/file/d/1u3jVpaPJcDyZlL2FLGv9fDvdU_ndC3gM/view?usp=drivesdk">Hindi Model Peper No.4</a>
+        <a href="https://drive.google.com/file/d/17Wv_sUk0P47PmkS73QxPESq1IGLJ_Pd6/view?usp=drivesdk">Hindi Model Peper No.5</a>
+        <a href="https://drive.google.com/file/d/1S57fidDF7XQfYZKqJAopNvxHi0tGmpXL/view?usp=drivesdk">Hindi Model Peper No.6</a>
+        <a href="
+        https://drive.google.com/file/d/1hEK-iZ35iJDKsyOeBijE37QgHwqc-gr1/view?usp=drivesdk">Hindi Model peper No.7</a>
+    </div>
+</div>
+
+</body>
+</html>
